@@ -6,6 +6,8 @@ function useToggle(defaultValue?: boolean): [boolean, () => void] {
   const toggle = useCallback((status?: boolean) => {
     setIsShowing((prevStatus) => (isBoolean(status) ? status : !prevStatus))
   }, [])
+
+  
   return [isShowing, toggle]
 }
 
