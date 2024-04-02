@@ -1,9 +1,9 @@
 import React from 'react'
 import { LayoutProps } from '~/types/interface'
 
-const Layout = ({children}:LayoutProps) => {
+const Layout = ({children,classname}:LayoutProps) => {
   return (
-    <div className='max-w-[1380px] mx-auto'>{children}</div>
+    <div className={`max-w-[1380px] mx-auto ${classname}`}>{children}</div>
   )
 }
 
