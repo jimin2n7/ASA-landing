@@ -1,5 +1,5 @@
 // showLastCommitMessageForThisLibrary.js
-import { create } from 'apisauce'
+import axios from "axios"
 
 const BASE_API_URL = process.env.REACT_APP_BASE_API
 
@@ -11,7 +11,7 @@ const defaultApiSauceConfig = {
   timeout: 10000
 }
 
-const api = create({
+const api = axios.create({
   ...defaultApiSauceConfig,
   baseURL: BASE_API_URL
 })
