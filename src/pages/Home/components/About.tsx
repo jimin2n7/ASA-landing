@@ -43,7 +43,7 @@ const About = () => {
             <div className='flex flex-col items-center gap-y-[30px]'>
               <img src={LogoGameASA} alt='LogoGameASA' />
               <div className='flex gap-x-[24px]'>
-                <a href='' target='_blank' rel='noopener noreferrer'>
+                <a href='https://apps.apple.com/ro/app/asa-ai-sketch-to-art/id6464041273' target='_blank' rel='noopener noreferrer'>
                   <img src={AppStore} alt='AppStore Download' />
                 </a>
                 <a href='https://play.google.com/store/apps/details?id=com.aienthusiast.aisketch&pcampaignid=web_share' target='_blank' rel='noopener noreferrer'>
