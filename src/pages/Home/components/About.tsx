@@ -3,10 +3,11 @@ import Layout from '~/components/Layout'
 import LogoGameASA from '../../../assets/logoGame.png'
 import AppStore from '../../../assets/Appstore.png'
 import Googleplay from '../../../assets/Googleplay.png'
+import BgAbout from '../../../assets/bgAbout.png'
 
 const About = () => {
   return (
-    <div className="bg-[url('src/assets/bgAbout.png')] bg-no-repeat bg-cover bg-center">
+    <div className="bgAbout">
       <Layout>
         <div className='flex flex-col items-center pt-20 pb-[100px] '>
           <div className='flex flex-col items-center mb-[70px]'>
@@ -45,7 +46,7 @@ const About = () => {
                 <a href='' target='_blank' rel='noopener noreferrer'>
                   <img src={AppStore} alt='AppStore Download' />
                 </a>
-                <a href='' target='_blank' rel='noopener noreferrer'>
+                <a href='https://play.google.com/store/apps/details?id=com.aienthusiast.aisketch&pcampaignid=web_share' target='_blank' rel='noopener noreferrer'>
                   <img src={Googleplay} alt='Googleplay Download' />
                 </a>
               </div>
