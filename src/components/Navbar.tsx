@@ -5,7 +5,7 @@ import { arrayNavLink } from '~/dummyData/navbar'
 import Layout from './Layout'
 const Navbar = () => {
   return (
-    <div className='py-[28px] bg-white shadow-[0_2px_4px_0_#0000001A]'>
+    <div className='py-[22px] bg-white shadow-[0_2px_4px_0_#0000001A]'>
         <Layout> 
             <div className='flex justify-between items-center '>
                 <div className='flex items-center gap-x-[40px]'>

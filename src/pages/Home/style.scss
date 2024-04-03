@@ -6,8 +6,10 @@
     background-position: right;
     background-size: 32%;
     position: relative;
+    margin-bottom: 80px;
 }
 .bg-img::after{
+    z-index: -2;
     content: '';
     position: absolute;
     top:0;
@@ -15,5 +17,43 @@
     height: 100%;
     width: 680px;
     background: linear-gradient(225deg, rgba(255, 255, 255, 0) 8.1%, #FFFFFF 100%);
-
+}
+.bg-work{
+    background:  linear-gradient(180deg, #FFF1CE 0%, #FFFFFF 100%);
+    padding: 80px 0;
+}
+.__rcs-handle-button{
+    width: 0px !important;
+    height: 0px !important;
+}
+.__rcs-handle-arrow{
+    position: relative !important;
+}
+.__rcs-handle-arrow:nth-child(1)::after{
+    content: "";
+    position: absolute;
+    right:-11px;
+    bottom: 0;
+    top:-11px;
+    width: 0;
+    height: 0;
+    border-right: 13px solid #FEA80A;
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+    z-index:-1;
+    border-radius: 15px;
+}
+.__rcs-handle-arrow:nth-child(2)::before{
+    content: "";
+    position: absolute;
+    right:-11px;
+    bottom: 0;
+    top:-11px;
+    width: 0;
+    height: 0;
+    border-right: 13px solid #FEA80A;
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+    z-index:-1 !important;
+    border-radius: 15px;
 }

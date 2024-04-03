@@ -3,7 +3,6 @@ import Layout from '~/components/Layout'
 import Introduce from './Introduce'
 import MainSupport from './MainSupport'
 import ImageHeader from './ImageHeader'
-import '../style.scss'
 const Hero = () => {
   return (
    
@@ -13,7 +12,7 @@ const Hero = () => {
                 <div className='col-span-3 flex items-center'>
                     <Introduce/>
                 </div>
-                <div className='col-span-2'>
+                <div className='col-span-2 flex items-center z-10'>
                     <ImageHeader/>
                 </div>
             </div>
