@@ -19,10 +19,11 @@ const Footer = () => {
               <form action='#' className='mt-[16px] flex gap-x-3 flex-wrap'>
                 <input
                   type='email'
+                  name='email'
                   placeholder='Your email address'
                   className=' py-2 pl-5 w-[282px] border border-[#F19F00] outline-none rounded-[28px] bg-transparent text-[#F19F00] text-[14px] leading-[24px] placeholder-[#F19F00]'
                 />
-                <button className='outline-none py-2 px-5 bg-[#F19F00] text-white text-[14px] leading-6 font-bold rounded-[28px]'>
+                <button className='outline-none py-2 px-5 bg-[#F19F00] text-white text-[14px] leading-6 font-bold rounded-[28px]' type='submit'>
                   Subscribe
                 </button>
               </form>
