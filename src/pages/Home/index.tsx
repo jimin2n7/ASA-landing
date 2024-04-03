@@ -5,6 +5,7 @@ import Partner from './components/Partner'
 import Footer from '~/components/Footer'
 import Hero from './components/Header/Hero'
 import MainWork from './components/Work/MainWork'
+import HightlightNFT from './components/Hightlight'
 import './style.scss'
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
     <div>
       <Hero />
       <About />
+      <HightlightNFT />
       <MainWork />
       <Partner />
       <Footer />
