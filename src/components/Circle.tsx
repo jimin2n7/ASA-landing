@@ -3,8 +3,8 @@ import { CircleProps } from '~/types/interface'
 
 const Circle = ({sizeBig,sizeSmall}:CircleProps) => {
   return (
-    <div className={`w-[${sizeBig}px] h-[${sizeBig}px] rounded-full bg-[#BDCCFF] flex justify-center items-center`}>
-        <div className={`w-[${sizeSmall}px] h-[${sizeSmall}px] rounded-full bg-[#506CFF]`}></div>
+    <div className={` rounded-full bg-[#BDCCFF] flex justify-center items-center`} style={{width:sizeBig,height:sizeBig}}>
+        <div className={` rounded-full bg-[#506CFF]`} style={{width:sizeSmall,height:sizeSmall}}></div>
     </div>
   )
 }

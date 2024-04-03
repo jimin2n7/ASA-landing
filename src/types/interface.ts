@@ -7,6 +7,6 @@ export interface ButtonProps{
     className?:string
 }
 export interface CircleProps{
-    sizeBig:number,
-    sizeSmall:number
+    sizeBig:string,
+    sizeSmall:string
 }
