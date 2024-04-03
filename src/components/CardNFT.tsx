@@ -15,8 +15,8 @@ const CardNFT = () => {
                     <ReactCompareSliderImage src={flower} alt='flower'/>
                 }
                 style={{
-                    width:"300px",
-                    height:"300px",
+                    width:"262px",
+                    height:"262px",
                     borderRadius:"10px",
                     border:"1px solid #FFCD72",
                     marginBottom:"10px"

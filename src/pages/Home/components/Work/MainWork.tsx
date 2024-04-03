@@ -9,7 +9,7 @@ const MainWork = () => {
         <Layout>
             <div className='mb-[40px]'>
                 <div className='flex flex-col gap-y-[37px] items-center'>
-                    <div className='flex flex-col gap-y-[10px]'>
+                    <div className='flex flex-col gap-y-[10px] items-center'>
                         <h1 className='font-bold text-[40px] leading-[40px] text-[#5A4F3E]'>How to ASA NFT Work</h1>
                         <p className='text-[#F19F00] font-semibold text-[24px] leading-[24px]'>Selling NFT Images on ASA Dapp</p>
                     </div>
