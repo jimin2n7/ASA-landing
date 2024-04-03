@@ -28,8 +28,32 @@ const HightlightNFT = () => {
               <div className='mx-3'>
                 <CardNFT />
               </div>
+              <div className='mx-3'>
+                <CardNFT />
+              </div>
+              <div className='mx-3'>
+                <CardNFT />
+              </div>
+              <div className='mx-3'>
+                <CardNFT />
+              </div>
+              <div className='mx-3'>
+                <CardNFT />
+              </div>
             </Marquee>
             <Marquee pauseOnHover direction='right' className='mt-6' speed={100}>
+              <div className='mx-3'>
+                <CardNFT />
+              </div>
+              <div className='mx-3'>
+                <CardNFT />
+              </div>
+              <div className='mx-3'>
+                <CardNFT />
+              </div>
+              <div className='mx-3'>
+                <CardNFT />
+              </div>
               <div className='mx-3'>
                 <CardNFT />
               </div>
